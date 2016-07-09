@@ -11,6 +11,18 @@
     #image-container {
       display: flex;
     }
+    #meme {
+      margin-left: 10px;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    #meme button {
+      background-color: #aaffdd;
+      }
+    #meme button:hover {
+      background-color: #aaff;
+    }
+
   </style>
 </head>
 
@@ -20,7 +32,7 @@
   </div>
   <div id="image-container">
     <canvas width="500" height="500" style="border: 1px solid #000;"></canvas>
-    <div>
+    <div id="meme">
       <span>Top Line:</span><br/>
       <input id="topLineText" type="text"><br/>
       <span>Bottom Line:</span><br/>
