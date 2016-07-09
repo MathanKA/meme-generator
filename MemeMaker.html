@@ -73,7 +73,8 @@
         ctx.strokeText(bottomLine, canvas.width / 2, canvas.height - 20);
       }
     }
-
+    window.topLineText = "";
+    window.bottomLineText = "";
     var input1 = document.getElementById('topLineText');
     var input2 = document.getElementById('bottomLineText');
     input1.oninput = textChangeListener;
